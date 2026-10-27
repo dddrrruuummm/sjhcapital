@@ -1,0 +1,3 @@
+export function Brand({ light = false }: { light?: boolean }) {
+  return <span className={`brand ${light ? "brand-light" : ""}`}><svg width="58" height="58" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" fill="#0B1F3A"/><path d="M10 13H54M10 51H54" stroke="#B98A2F" strokeWidth="1"/><text x="32" y="41" fill="#C9A24B" textAnchor="middle" fontFamily="Georgia,serif" fontSize="26" letterSpacing="-1.8">SJH</text><path d="M30 9H34M30 55H34" stroke="#C9A24B"/></svg><span><span className="brand-name">CAPITAL</span><span className="brand-subline">Asset Management · Hong Kong</span></span></span>;
+}
